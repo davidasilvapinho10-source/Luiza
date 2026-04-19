@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #2f2a2d;
+  background: #fcfaf8;
+}
+
+body {
+  @apply bg-stone text-gray-800;
+}
+
+.container-luiza {
+  @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+}
